@@ -1,0 +1,114 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* .container{}*/
+
+/* xs */
+@media (min-with: 475px) {
+}
+
+/* sm */
+@media (min-with: 640px) {
+}
+
+/* md */
+@media (min-with: 768px) {
+}
+
+/* xL */
+@media (min-with: 1024px) {
+}
+
+/* 2xL */
+@media (min-with: 1280px) {
+}
+
+/* xs */
+@media (min-with: 1536px) {
+}
+main {
+  padding: 85px, 24, 96, 24;
+  background-color: darkgreen;
+}
+
+.img {
+  float: right;
+  border-radius: 52%;
+}
+.aboutPage {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+body {
+  background-color: green;
+  font-family: "Chillax", sans-serif;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  font-size: 20px;
+}
+
+h1 {
+  background-color: darkgreen;
+  font-size: 16px;
+  font-size: 75px;
+  font-family: "Chillax", sans-serif;
+  color: black;
+  text-align: end;
+  margin: 0;
+}
+h2 {
+  font-family: "Chillax", sans-serif;
+  font-size: 35px;
+}
+h3 {
+  font-family: cursive;
+  font-size: 30px;
+  text-align: center;
+}
+
+.btn {
+  font-family: "Chillax", sans-serif;
+  transition-duration: 0.03s;
+  background-color: bisque;
+  cursor: pointer;
+  font-size: medium;
+  float: right;
+  display: inline-block;
+  letter-spacing: -0.05em;
+  padding: 0.5em 1em;
+  border-radius: 6px;
+  color: black;
+}
+.btn:hover {
+  transform: translateY(-3px);
+  background-color: chocolate;
+}
+main {
+  align-items: center;
+}
+header {
+  padding-left: 0%;
+  margin: 0;
+}
+img .vegie,
+.anima,
+.car {
+  margin: 2px;
+  float: right;
+}
+
+#form {
+  font-size: 25px;
+  max-width: 660px;
+  margin: auto;
+}
+#submit {
+  font-size: 15px;
+  background-color: #fafafa;
+  border-radius: 5px;
+  box-shadow: 0 0 12px -2px black;
+}

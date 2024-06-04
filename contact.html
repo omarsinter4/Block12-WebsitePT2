@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Site</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="javascript.js" defer></script>
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=chillax@200,400,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <h1>OMAR RAMOS</h1>
+      <a href="index.html" class="btn">Home</a>
+      <a href="about.html" class="btn">About</a>
+      <a href="portfolio.html" class="btn">Portfolio</a>
+      <a href="contact.html" class="btn">Contact</a>
+    </nav>
+
+    <section>
+      <h2>Contact form:</h2>
+    </section>
+
+    <section>
+      <form id="form">
+        <div>
+          <label for="name">Name:</label><br />
+          <input id="name" type="text" name="name" />
+        </div>
+
+        <div>
+          <label for="email">Email:</label><br />
+          <input id="email" type="email" name="email" />
+        </div>
+
+        <div>
+          <label for="message">Message:</label><br />
+          <textarea id="message" name="message" rows="6" cols="50"></textarea>
+        </div>
+
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
